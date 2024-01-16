@@ -1,21 +1,17 @@
-var nombre = "Nicolas";
+var nombre = "Salvador";
 
 console.log(nombre);
 
-let apellido = "Cortes";
+let apellido = "Silva";
 
 {
-    nombre = "Ignacio";
-    console.log(nombre);
     console.log(apellido);
-    apellido = "Silva"
+    apellido = "Carfulen"
     console.log(apellido);
     
 }
 
-console.log(apellido);
-
-const edad = 24;
+const edad = 89;
 console.log(edad);
 
 
