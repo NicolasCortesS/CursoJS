@@ -29,6 +29,21 @@ console.log(persona.lang)
 
  console.log(persona.nombrecompleto())*/
 
+function Personaje(Nombre,Faccion,Raza,Clase){
+    this.nombre = Nombre;
+    this.faccion = Faccion;
+    this.raza = Raza;
+    this.clase = Clase;
+}
 
+let menpho = new Personaje("Menpho","Horda","Trol","Mago")
+let titin = new Personaje("Titin","Horda","Goblin","Monje")
 
+let personajeMenpho = Object.values(menpho);
 
+console.log(menpho);
+console.log(titin);
+
+for( let x = 0; x<personajeMenpho.length; x++){
+    console.log(personajeMenpho[x])
+}
