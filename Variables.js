@@ -1,20 +1,5 @@
-var nombre = "Salvador";
+var miNumero1 = 15;
+console.log(miNumero1);
 
-console.log(nombre);
-
-let apellido = "Silva";
-
-{
-    console.log(apellido);
-    apellido = "Carfulen"
-    console.log(apellido);
-    
-}
-
-const edad = 89;
-console.log(edad);
-
-
-
-
-
+let miNumero2 = 20;
+console.log(miNumero2);
