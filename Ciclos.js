@@ -1,3 +1,5 @@
+//Ejercicio suma acumulada desde el 1 al 5 usando 3 ciclos diferentes
+
 let min = 1;
 let max = 5;
 
